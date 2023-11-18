@@ -1,0 +1,125 @@
+<div class="w-full py-[12px] px-[16px] bg-[#f2f3f4]">
+    <div class=" w-[1100px] mx-auto flex items-center space-x-2">
+        <h1 class=""><a routerLink="/">Trang chủ</a></h1> <i class="fa-solid fa-angle-right"></i>
+        <h1 class="">{{product?.categories.name}}</h1> <i class="fa-solid fa-angle-right"></i>
+        <div>{{product?.name}}</div>
+    </div>
+</div>
+<div>
+    <div class="w-[1100px] mx-auto">
+        <div class="left-col w-[830px] p-[15px]">
+            <div class="flex">
+                <div class="w-[240px]">
+                    <img class="w-[240px] h-[300px]" src="{{product?.images[0].large_url}}" alt="">
+                    <div class="text-center pt-[20px]">
+                        <div><i class="fa-regular fa-heart"></i></div>
+                        <div>Đánh giá sách</div>
+                        <div>{{(product?.rating_average.value| number:'1.0-1') || 0}}/5</div>
+                    </div>
+
+                </div>
+                <div class="pl-[45px]">
+                    <h1 class="text-[20px]">{{product?.name}}</h1>
+                    <p>Tác giả: <a href="">{{product?.authors[0].name}}</a></p>
+                    <p>Thể loại: <a href="">{{product?.categories.name}}</a></p>
+                    <p class="text-[25px] text-[#048A70] font-bold">
+                        {{ VND.format(product?.sale_price) }}
+                        <b *ngIf="product?.original_price-product?.sale_price!=0"
+                            class="text-white text-[12px] bg-red-500 font-semibold">
+                            -{{VND.format(product?.original_price-product?.sale_price)}}
+                        </b>
+                    </p>
+                    <div class="my-5">
+                        <form class="flex">
+                            <label for="Quantity" class="sr-only"> Quantity </label>
+
+                            <div class="flex items-center border border-gray-200 rounded">
+                                <button (click)="decreaseQuantity()" type="button"
+                                    class="w-10 h-10 leading-10 text-gray-600 transition hover:opacity-75">
+                                    &minus;
+                                </button>
+
+                                <input type="number" name="Quantity" [(ngModel)]="quantity" [defaultValue]="quantity"
+                                    class="h-10 w-16 outline-none border-transparent text-center [-moz-appearance:_textfield] sm:text-sm [&::-webkit-outer-spin-button]:m-0 [&::-webkit-outer-spin-button]:appearance-none [&::-webkit-inner-spin-button]:m-0 [&::-webkit-inner-spin-button]:appearance-none" />
+
+                                <button (click)="increaseQuantity()" type="button"
+                                    class="w-10 h-10 leading-10 text-gray-600 transition hover:opacity-75">
+                                    &plus;
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="space-x-3">
+                        <a (click)="addToCart(product)"
+                            class="inline-block rounded bg-[#048A70] px-8 py-3 text-sm font-medium text-white transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:bg-green-400">
+                            Thêm vào giỏ hàng
+                        </a>
+                        <a class="inline-block rounded border border-current px-8 py-3 text-sm font-medium text-[#048A70] transition hover:scale-110 hover:shadow-xl focus:outline-none focus:ring active:text-red-500"
+                            href="/download">
+                            Mua ngay
+                        </a>
+                    </div>
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div>
+            <p class="text-[22px] font-semibold mb-4 uppercase">Thông tin chi tiết:</p>
+            <table class="min-w-full divide-y-2 divide-gray-200 bg-white text-sm">
+                <tbody class="divide-y divide-gray-200">
+                    <tr class="odd:bg-gray-50" *ngFor="let info of product?.specifications[0].attributes">
+                        <td class="whitespace-nowrap px-4 py-2 text-gray-700 w-1/6">{{info.name}}: </td>
+                        <td class="whitespace-nowrap px-4 py-2 text-gray-700">{{info.value}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h3 class="text-[22px] font-semibold mb-4 uppercase">Giới thiệu sản phẩm</h3>
+            <div [innerHTML]="bypassSanitization(product?.description)"></div>
+        </div>
+
+        <div class="mt-4" *ngIf="user">
+            <h1 class="text-[22px] font-semibold mb-4 uppercase">Đánh giá sản phẩm</h1>
+            <nz-comment *ngIf="comment" nzAuthor="{{user?.lastname}} {{user?.firstname}}">
+                <nz-avatar nz-comment-avatar nzIcon="user" [nzSrc]=""></nz-avatar>
+                <nz-comment-content>
+                    <nz-rate class="text-sm" [(ngModel)]="rating" nzAllowHalf></nz-rate>
+
+                    <nz-form-item>
+                        <textarea [(ngModel)]="inputValue" nz-input rows="4"></textarea>
+                    </nz-form-item>
+                    <nz-form-item>
+                        <button nz-button nzType="primary" [nzLoading]="submitting" [disabled]="!inputValue"
+                            (click)="handleSubmit(product.id,user,product)">
+                            Add Comment
+                        </button>
+                    </nz-form-item>
+                </nz-comment-content>
+            </nz-comment>
+            <div class="ml-6 listComment" *ngIf="reviews">
+                <div *ngFor="let review of currentProducts">
+                    <nz-comment nzAuthor="{{review?.userName}}">
+                        <nz-avatar nz-comment-avatar nzIcon="user" [nzSrc]=""></nz-avatar>
+                        <nz-comment-content>
+                            <div class="">
+                                <nz-rate class="ant-rate" [ngModel]="review?.rating" nzAllowHalf
+                                    disabled="true"></nz-rate>
+                            </div>
+                            <nz-form-item>
+                                <p>{{review?.comment}}</p>
+                            </nz-form-item>
+                        </nz-comment-content>
+                    </nz-comment>
+                </div>
+                <nz-pagination class="text-right" [nzPageIndex]="currentPage" [nzTotal]="totalItems"
+                    [nzPageSize]="itemsPerPage" (nzPageIndexChange)="changePage($event)">
+                </nz-pagination>
+            </div>
+        </div>
+    </div>
+</div>

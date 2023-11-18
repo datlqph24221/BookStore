@@ -1,0 +1,21 @@
+<div class="w-[170px]">
+    <div class="w-[150px] text-[#3a4752] shadow-xl border border-gray-200 mx-auto">
+        <div>
+            <a [routerLink]="['/detail',product.id]">
+                <img class="w-[150px] h-[218px] border border-solid border-gray-200"
+                    src={{product?.images[0]?.small_url}} alt="">
+            </a>
+        </div>
+        <div class="px-[10px]">
+            <a [routerLink]="['/detail',product.id]">
+                <h3 class="text-[13px] truncate">{{product.name}}</h3>
+            </a>
+            <p class="text-[13px] text-red-500 font-medium truncate">{{VND.format(product.sale_price)}}</p>
+            <div class="mb-[7px]">
+                <a href="#" class="text-[11px] text-[#888] truncate">{{product?.authors[0]?.name}}</a>
+            </div>
+            <div class="text-[13px] pt-1 border-t">{{product?.quantity_sold?.text}}</div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,90 @@
+<h1>Quản lý đơn hàng</h1>
+<nz-table #basicTable [nzData]="listOfData" [nzPageSize]="4">
+    <thead>
+        <tr>
+            <th>Mã đơn hàng</th>
+            <th>Trạng thái</th>
+            <th>Sản phẩm</th>
+            <th>Tổng tiền</th>
+            <th>Hành động</th>
+
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let data of basicTable.data;let i = index">
+            <td>L{{data.id }}</td>
+            <td>
+                <div>
+                    {{ data.orderState }}
+                </div>
+                <div *ngIf="data.orderState === 'Đang xử lý'"
+                    class=" w-full text-right text-[12px] underline italic text-red-400">
+                    <a nz-popconfirm nzPopconfirmTitle="Are you sure delete this task?" nzPopconfirmPlacement="bottom"
+                        (nzOnConfirm)="confirm(data.id)">
+                        Hủy đơn
+                    </a>
+                </div>
+            </td>
+            <td>
+                <div class="space-x-1 flex" *ngFor="let product of  data.orderProduct ">
+                    <p>{{product.quantity}}</p>
+                    x
+                    <p>{{product.nameProduct}}</p>
+                </div>
+            </td>
+            <td>{{ VND.format(data.orderPrice) }}</td>
+
+            <td class="">
+
+                <button nz-button [nzType]="'primary'" (click)="showModal(i)"><span>Xem chi tiết</span></button>
+                <nz-modal [(nzVisible)]="isVisible[i]" nzTitle="Thông tin chi tiết" (nzOnCancel)="handleCancel(i)"
+                    (nzOnOk)="handleOk(i)">
+                    <ng-container *nzModalContent>
+                        <div class="flex space-x-2">
+                            <p>Email:</p>
+                            <p>{{ data.email }}</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <p>Họ tên:</p>
+                            <p>{{ data.lastname + data.firstname }}</p>
+                        </div>
+                        <div class="flex space-x-2">
+                            <p>Số điện thoại:</p>
+                            <p>{{ data.phoneNumber }}</p>
+                        </div>
+
+                        <div class="flex space-x-2">
+                            <p>Ngày:</p>
+                            <p>{{ data.date }}</p>
+                        </div>
+
+                        <div class="flex space-x-2">
+                            <p>Địa chỉ:</p>
+                            <p>{{ data.address }}</p>
+                        </div>
+
+                        <div class="flex space-x-2">
+                            <p>Ghi chú:</p>
+                            <p>{{ data.note||"Không có" }}</p>
+                        </div>
+
+                        <div class="flex space-x-2">
+                            <p>Loại thanh toán:</p>
+                            <p>{{ data.paymentMethod }}</p>
+                        </div>
+
+                        <div class="flex space-x-2">
+                            <p>Tổng tiền:</p>
+                            <p>{{ VND.format(data.orderPrice) }}</p>
+                        </div>
+
+                        <div class="flex space-x-2">
+                            <p>Trạng thái:</p>
+                            <p>{{ data.orderState }}</p>
+                        </div>
+                    </ng-container>
+                </nz-modal>
+            </td>
+        </tr>
+    </tbody>
+</nz-table>

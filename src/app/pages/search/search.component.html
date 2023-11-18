@@ -1,0 +1,8 @@
+<div class="mx-auto w-[1100px]">
+    <h2>Kết quả tìm kiếm:</h2>
+    <div class="grid grid-cols-6 gap-2">
+        <div *ngFor="let product of products">
+            <app-item-product [product]="product"></app-item-product>
+        </div>
+    </div>
+</div>

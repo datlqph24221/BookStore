@@ -1,0 +1,28 @@
+<div class="w-[1100px] grid grid-cols-4 gap-x-[20px] gap-y-[50px] mx-auto mt-[50px]">
+    <div *ngFor="let list of products" class="w-260px border rounded-md shadow-md">
+        <div class="flex w-full pl-[10px]  relative">
+            <div class="w-[120px] ">
+                <img width="176" class="absolute bottom-0 w-[120px] h-[176px] border border-solid border-gray-200"
+                    src={{list.images[0].small_url}} alt="">
+            </div>
+            <div class="w-[120px] px-[10px] space-y-1">
+                <h3 class="text-[13px] truncate-2-lines"><a [routerLink]="['/detail',list.id]">{{list.name}}</a></h3>
+                <div class="text-[11px] text-[#888] truncate">{{list.authors[0].name}}</div>
+                <div class="rating_start flex text-[11px] text-yellow-400">
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                    <i class="fa-solid fa-heart"></i>
+                </div>
+                <p class="text-[13px] text-red-500 font-medium truncate">{{VND.format(list.sale_price)}}</p>
+                <p [innerHTML]="list.short_description" class="truncate-2-lines text-[11px] text-[#888] leading-4">
+                </p>
+            </div>
+        </div>
+        <div class="mt-2 h-[0.5px] mx-[10px] bg-gradient-to-r from-gray-300 to-white"></div>
+        <div class="text-[11px] text-[#888] my-2 ml-[10px] ">
+            13,000 lượt xem
+        </div>
+    </div>
+</div>

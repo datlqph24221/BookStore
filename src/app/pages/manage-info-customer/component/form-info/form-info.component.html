@@ -1,0 +1,65 @@
+<div class="">
+    <h1>Thông tin cá nhân </h1>
+</div>
+<form nz-form [formGroup]="validateForm" (ngSubmit)="submitForm()">
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzRequired nzFor="email">E-mail</nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="The input is not valid E-mail!">
+            <input nz-input formControlName="email" type="email" id="email" />
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="lastname" nzRequired
+            nzTooltipTitle="What do you want other to call you">
+            <span>Họ</span>
+        </nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="Please input your lastname!">
+            <input nz-input formControlName="lastname" />
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="firstname" nzRequired
+            nzTooltipTitle="What do you want other to call you">
+            <span>Tên</span>
+        </nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="Please input your firstname!">
+            <input nz-input formControlName="firstname" />
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="phoneNumber" nzRequired>Số điện thoại</nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="Please input your phone number!">
+            <input formControlName="phoneNumber" id="'phoneNumber'" nz-input />
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="birthday" nzRequired>Ngày sinh</nz-form-label>
+        <nz-form-control [nzSm]="14" [nzXs]="24" nzErrorTip="Please input your phone birthday!">
+            <nz-date-picker formControlName="birthday"></nz-date-picker>
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="gender" nzRequired>Giới tính</nz-form-label>
+        <nz-form-control>
+            <nz-radio-group formControlName="gender">
+                <label nz-radio nzValue="Nam">Nam</label>
+                <label nz-radio nzValue="Nữ">Nữ</label>
+                <label nz-radio nzValue="Khác">Khác</label>
+            </nz-radio-group>
+        </nz-form-control>
+    </nz-form-item>
+    <nz-form-item>
+        <nz-form-label [nzSm]="6" [nzXs]="24" nzFor="address" nzRequired>Địa chỉ</nz-form-label>
+        <nz-form-control>
+            <nz-textarea-count [nzMaxCharacterCount]="100">
+                <textarea rows="4" formControlName="address" nz-input></textarea>
+            </nz-textarea-count>
+        </nz-form-control>
+    </nz-form-item>
+
+    <nz-form-item nz-row class="register-area">
+        <nz-form-control [nzSpan]="14" [nzOffset]="6">
+            <button nz-button nzType="primary">Cập nhật</button>
+        </nz-form-control>
+    </nz-form-item>
+</form>

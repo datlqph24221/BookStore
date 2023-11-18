@@ -1,0 +1,15 @@
+.count {
+    padding-left: 8px;
+    cursor: auto;
+}
+
+.ant-comment-rtl .count {
+    padding-right: 8px;
+    padding-left: 0;
+}
+
+.ant-rate-star,
+.ant-rate-star-half,
+.ant-rate-star-full {
+    font-size: 10px !important;
+}

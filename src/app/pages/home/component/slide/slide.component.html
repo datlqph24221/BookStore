@@ -1,0 +1,11 @@
+<div class="relative w-full mx-auto">
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">
+        <div ngxSlickItem *ngFor="let slide of slides" class=" slider flex-1 space-x-[30px]">
+            <img width="1100" src={{slide}} alt="">
+
+        </div>
+    </ngx-slick-carousel>
+
+    <button class="btn right" (click)="slickModal.slickPrev()"><i class="fa-solid fa-angle-right"></i></button>
+    <button class="btn left" (click)="slickModal.slickNext()"><i class="fa-solid fa-angle-left"></i></button>
+</div>

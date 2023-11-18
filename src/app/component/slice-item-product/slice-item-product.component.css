@@ -1,0 +1,19 @@
+.carousel {
+    width: 1050px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    position: absolute;
+}
+
+.left {
+    left: 0;
+    bottom: 50%;
+}
+
+.right {
+    bottom: 50%;
+    right: 0;
+}

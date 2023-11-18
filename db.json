@@ -1,0 +1,1877 @@
+{
+  "reviews": [
+    {
+      "productId": 27,
+      "userId": 1,
+      "userName": "Đạt Lê",
+      "rating": 5,
+      "comment": "Hay quá em ơi",
+      "createdAt": "2023-11-18",
+      "id": 11
+    },
+    {
+      "productId": 24,
+      "userId": 1,
+      "userName": "Đạt Lê",
+      "rating": 2.5,
+      "comment": "cũng bình thường thôi",
+      "createdAt": "2023-11-18",
+      "id": 12
+    },
+    {
+      "productId": 27,
+      "userId": 1,
+      "userName": "Đạt Lê",
+      "rating": 0.5,
+      "comment": "đọc chán òm",
+      "createdAt": "2023-11-18",
+      "id": 13
+    }
+  ],
+  "orders": [
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "date": "2023-11-17",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 23,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg",
+          "authors": "Trương Anh Ngọc",
+          "nameProduct": "Đi Khi Ta Còn Trẻ",
+          "price": 102000,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 102000,
+      "orderState": "Đã hủy",
+      "id": 9
+    },
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "",
+      "date": "2023-11-18",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 27,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935074127716.jpg",
+          "authors": "Kang Ah",
+          "nameProduct": "Chú Mèo Rụng Lông Không Có Điểm Dừng",
+          "price": 185300,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 185300,
+      "orderState": "Hoàn thành",
+      "id": 10
+    },
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "Hay em ơi",
+      "date": "2023-11-18",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 23,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg",
+          "authors": "Trương Anh Ngọc",
+          "nameProduct": "Đi Khi Ta Còn Trẻ",
+          "price": 102000,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 102000,
+      "orderState": "Đã hủy",
+      "id": 11
+    },
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "",
+      "date": "2023-11-18",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 24,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4456.jpg",
+          "authors": "Lê Văn Nghĩa",
+          "nameProduct": "Điệp Viên Không Không Thấy Và Đại Văn Mỗ",
+          "price": 72250,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 72250,
+      "orderState": "Hoàn thành",
+      "id": 12
+    },
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "aaa",
+      "date": "2023-11-18",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 6,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg",
+          "authors": "Paulo Coelho",
+          "nameProduct": "Nhà Giả Kim (Tái Bản 2020)",
+          "price": 63200,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 63200,
+      "orderState": "Hoàn thành",
+      "id": 13
+    },
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "aaa",
+      "date": "2023-11-18",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 25,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg",
+          "authors": "Lê Văn Nghĩa",
+          "nameProduct": "Điệp Viên Không Không Thấy Và Nhà Thơ Thần Giáng",
+          "price": 72250,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 72250,
+      "orderState": "Hoàn thành",
+      "id": 14
+    },
+    {
+      "userId": "1",
+      "email": "dat1234@gmail.com",
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "address": "Tổ 1 Yên Nghĩa",
+      "note": "aa",
+      "date": "2023-11-18",
+      "paymentMethod": "Direct Payment",
+      "orderProduct": [
+        {
+          "id": 25,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg",
+          "authors": "Lê Văn Nghĩa",
+          "nameProduct": "Điệp Viên Không Không Thấy Và Nhà Thơ Thần Giáng",
+          "price": 72250,
+          "quantity": 1
+        },
+        {
+          "id": 14,
+          "image": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066694742.jpg",
+          "authors": "Stephen King",
+          "nameProduct": "The Outsider - Kẻ Song Trùng",
+          "price": 305100,
+          "quantity": 1
+        }
+      ],
+      "orderPrice": 377350,
+      "orderState": "Đang xử lý",
+      "id": 15
+    }
+  ],
+  "carts": [
+    {
+      "id": 1,
+      "userId": "1",
+      "items": [],
+      "totalPrice": 0
+    },
+    {
+      "id": 2,
+      "userId": "2",
+      "items": [],
+      "totalPrice": 0
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Lê",
+      "lastname": "Đạt",
+      "phoneNumber": "0123456789",
+      "email": "dat1234@gmail.com",
+      "password": "$2a$10$7NWQQMEM3rRvPpkrgqzuVuGZp72P2vKKoGcAGtE9W1PKl54lK1TUe",
+      "confirmPassword": "123456",
+      "image": "",
+      "birthday": "2003-12-23T10:54:51.071Z",
+      "gender": "Nam",
+      "address": "Tổ 1 Yên Nghĩa",
+      "role": "user",
+      "id": 1
+    }
+  ],
+  "categories": [
+    {
+      "id": 316,
+      "name": "Tiểu thuyết",
+      "is_leaf": false
+    },
+    {
+      "id": 385,
+      "is_leaf": true,
+      "name": "Truyện trinh thám"
+    },
+    {
+      "id": 845,
+      "is_leaf": true,
+      "name": "Huyền bí - Giả tưởng - Kinh dị"
+    },
+    {
+      "id": 842,
+      "is_leaf": true,
+      "name": "Light Novel"
+    },
+    {
+      "id": 871,
+      "is_leaf": true,
+      "name": "Ngôn tình"
+    },
+    {
+      "id": 320,
+      "name": "Du ký"
+    },
+    {
+      "id": 14896,
+      "is_leaf": true,
+      "name": "Hài hước - Truyện cười"
+    },
+    {
+      "id": 9,
+      "is_leaf": true,
+      "name": "Truyện tranh"
+    }
+  ],
+  "products": [
+    {
+      "authors": [
+        {
+          "id": 13992,
+          "name": "Paulo Coelho",
+          "slug": "paulo-coelho"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 63200,
+      "description": "<p>Tiểu thuyết&nbsp;<em>Nhà giả kim&nbsp;</em>của Paulo Coelho như một câu chuyện cổ tích giản dị, nhân ái, giàu chất thơ, thấm đẫm những minh triết huyền bí của phương Đông. Trong lần xuất bản đầu tiên tại Brazil vào năm 1988, sách chỉ bán được 900 bản. Nhưng, với số phận đặc biệt của cuốn sách dành cho toàn nhân loại, vượt ra ngoài biên giới quốc gia,&nbsp;<em>Nhà giả kim&nbsp;</em>đã làm rung động hàng triệu tâm hồn, trở thành một trong những cuốn sách bán chạy nhất mọi thời đại, và có thể làm thay đổi cuộc đời người đọc.</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_195509_1_36793.jpg"
+        }
+      ],
+      "list_price": 79000,
+      "name": "Nhà Giả Kim (Tái Bản 2020)",
+      "original_price": 79000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 42844
+      },
+      "rating_average": {
+        "value": 3.4166666666666665,
+        "totalRating": 20.5,
+        "quantityVote": 6
+      },
+      "short_description": "<em>Tất cả những trải nghiệm trong chuyến phiêu du theo đuổi vận mệnh của mình đã giúp Santiago thấu hiểu được ý nghĩa sâu xa nhất của hạnh phúc, hòa hợp với vũ trụ và con người</em>",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "NXB Hội Nhà Văn"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2020"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "20.5 x 13 cm"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "227"
+            }
+          ]
+        }
+      ],
+      "id": 6
+    },
+    {
+      "book_cover": null,
+      "authors": [
+        {
+          "id": 16999,
+          "name": "José Mauro de Vasconcelos",
+          "slug": "josé-mauro-de-vasconcelos"
+        }
+      ],
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 108000,
+      "description": "<p>“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một Tiểu thuyết của Brazil.”</p>\n<p>- Booklist</p>\n<p>“Một cách nhìn cuộc sống gần như hoàn chỉnh từ con mắt trẻ thơ… có sức mạnh sưởi ấm và làm tan nát cõi lòng, dù người đọc ở lứa tuổi nào.”</p>\n<p>- The National</p>\n<p>Hãy làm quen với Zezé, cậu bé tinh nghịch siêu hạng đồng thời cũng đáng yêu bậc nhất, với ước mơ lớn lên trở thành nhà thơ cổ thắt nơ bướm. Chẳng phải ai cũng công nhận khoản “đáng yêu” kia đâu nhé. Bởi vì, ở cái xóm ngoại ô nghèo ấy, nỗi khắc khổ bủa vây đã che mờ mắt người ta trước trái tim thiện lương cùng trí tưởng tượng tuyệt vời của cậu bé con năm tuổi.</p>\n<p>Có hề gì đâu bao nhiêu là hắt hủi, đánh mắng, vì Zezé đã có một người bạn đặc biệt để trút nỗi lòng: cây cam ngọt nơi vườn sau. Và cả một người bạn nữa, bằng xương bằng thịt, một ngày kia xuất hiện, cho cậu bé nhạy cảm khôn sớm biết thế nào là trìu mến, thế nào là nỗi đau, và mãi mãi thay đổi cuộc đời cậu.<br />Mở đầu bằng những thanh âm trong sáng và kết thúc lắng lại trong những nốt trầm hoài niệm, Cây cam ngọt của tôi khiến ta nhận ra vẻ đẹp thực sự của cuộc sống đến từ những điều giản dị như bông hoa trắng của cái cây sau nhà, và rằng cuộc đời thật khốn khổ nếu thiếu đi lòng yêu thương và niềm trắc ẩn. Cuốn sách kinh điển này bởi thế không ngừng khiến trái tim người đọc khắp thế giới thổn thức, kể từ khi ra mắt lần đầu năm 1968 tại Brazil.</p>\n<p><strong>Tác giả: </strong></p>\n<p>JOSÉ MAURO DE VASCONCELOS (1920-1984) là nhà văn người Brazil. Sinh ra trong một gia đình nghèo ở ngoại ô Rio de Janeiro, lớn lên ông phải làm đủ nghề để kiếm sống. Nhưng với tài kể chuyện thiên bẩm, trí nhớ phi thường, trí tưởng tượng tuyệt vời cùng vốn sống phong phú, José cảm thấy trong mình thôi thúc phải trở thành nhà văn nên đã bắt đầu sáng tác năm 22 tuổi. Tác phẩm nổi tiếng nhất của ông là tiểu thuyết mang màu sắc tự truyện Cây cam ngọt của tôi. Cuốn sách được đưa vào chương trình tiểu học của Brazil, được bán bản quyền cho hai mươi quốc gia và chuyển thể thành phim điện ảnh. Ngoài ra, José còn rất thành công trong vai trò diễn viên điện ảnh và biên kịch.</p><p>Giá sản phẩm trên Tiki đã bao gồm thuế theo luật hiện hành. Bên cạnh đó, tuỳ vào loại sản phẩm, hình thức và địa chỉ giao hàng mà có thể phát sinh thêm chi phí khác như phí vận chuyển, phụ phí hàng cồng kềnh, thuế nhập khẩu (đối với đơn hàng giao từ nước ngoài có giá trị trên 1 triệu đồng).....</p>",
+      "images": [
+        {
+          "base_url": "https://salt.tikicdn.com/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "position": null,
+          "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg",
+          "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/5e/18/24/2a6154ba08df6ce6161c13f4303fa19e.jpg"
+        }
+      ],
+      "list_price": 108000,
+      "name": "Cây Cam Ngọt Của Tôi",
+      "original_price": 108000,
+      "quantity_sold": {
+        "text": "Đã bán 805",
+        "value": 805
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "“Vị chua chát của cái nghèo hòa trộn với vị ngọt ngào khi khám phá ra những điều khiến cuộc đời này đáng số một Tiểu thuyết của Brazil.”- Booklist“Một cách nhìn cuộc sống gần như hoàn chỉnh t...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Nhã Nam"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "14 x 20.5 cm"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "Nguyễn Bích Lan , Tô Yến Ly"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "244"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Nhà Xuất Bản Hội Nhà Văn"
+            }
+          ]
+        }
+      ],
+      "id": 7
+    },
+    {
+      "authors": [
+        {
+          "id": 363,
+          "name": "Lưu Hiểu Huy",
+          "slug": "luu-hieu-huy"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 120000,
+      "description": "<p>“Ghi chép pháp y - Những cái chết bí ẩn” là cuốn sách nằm trong hệ liệt với “Pháp y Tần Minh” - bộ tiểu thuyết nổi đình đám của xứ Trung đã được chuyển thể thành series phim. Cuốn sách tổng hợp những vụ án có thật, được viết bởi bác sĩ pháp y Lưu Hiểu Huy - người có 15 năm kinh nghiệm và từng mổ xẻ hơn 800 tử thi.&nbsp;</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-tr_c---ph_p-y-600.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-tr_c---ph_p-y-600.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-tr_c---ph_p-y-600.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-tr_c---ph_p-y-600.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/b/_/b_a-tr_c---ph_p-y-600.jpg"
+        }
+      ],
+      "list_price": 150000,
+      "name": "Ghi Chép Pháp Y - Những Cái Chết Bí Ẩn",
+      "original_price": 150000,
+      "quantity_sold": {
+        "text": "Đã bán 48",
+        "value": 48
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "<strong><em>Làm cách nào để một “xác chết lên tiếng”? - </em>đó là <em>công việc của bác sĩ pháp y.&nbsp;</em></strong>",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Tên Nhà Cung Cấp",
+              "value": "AZ Việt Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2022"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "13 x 20.5 cm"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Người Dịch",
+              "value": "Bùi Thanh Thúy"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "344"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Thanh Niên"
+            }
+          ]
+        }
+      ],
+      "id": 8
+    },
+    {
+      "authors": [
+        {
+          "id": 9173,
+          "name": "Dazai Osamu",
+          "slug": "dazai-osamu"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 107100,
+      "description": "<p><strong>Thất Lạc Cõi Người</strong>&nbsp;là một tác phẩm kinh điển nổi tiếng của văn học Nhật Bản hiện đại và là cuốn tiểu thuyết cuối cùng của Dazai Osamu.&nbsp;<strong>Thất Lạc Cõi Người</strong>&nbsp;mang nhiều nét tự thuật, là một tiểu thuyết tự truyện. Sau khi hoàn thành tác phẩm này, Dazai cùng với người tình là Tomie trầm mình tự sát ở hồ nước ngọt Tamagawa, chấm dứt cuộc đời 39 năm ngắn ngủi. Cuộc đời của Dazai là cuộc đời đau thương và vỡ mộng. Tự sát đến năm lần, nghiện rượu, nghiện thuốc giảm đau, vào bệnh viện tâm thần, ly dị vợ, tái hôn, một con trai tật nguyền, đường văn chương lận đận. Tất cả những điều này in dấu trong tác phẩm của ông, làm nên nét độc đáo và mang lại vinh quang cho Dazai Osamu.</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8932000133124_1.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8932000133124_1.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8932000133124_1.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8932000133124_1.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8932000133124_1.jpg"
+        }
+      ],
+      "list_price": 119000,
+      "name": "Thất Lạc Cõi Người (Tái Bản 2023)",
+      "original_price": 119000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 2269
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Thất Lạc Cõi Người là một tác phẩm kinh điển nổi tiếng của văn học Nhật Bản hiện đại và là cuốn tiểu thuyết cuối cùng của Dazai Osamu",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Cty Bán Lẻ Phương Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2023"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "20.5 x 13 x 1.4cm"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Người Dịch",
+              "value": "Hoàng Long"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "275"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Hội Nhà Văn"
+            }
+          ]
+        }
+      ],
+      "id": 9
+    },
+    {
+      "authors": [
+        {
+          "id": 7142,
+          "name": "Arthur Conan Doyle",
+          "slug": "arthur-conan-doyle"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 385,
+        "name": "Truyện trinh thám",
+        "is_leaf": true
+      },
+      "sale_price": 420750,
+      "description": "Cái tên Sherlock Holmes đã quen thuộc khắp thế giới tới mức một người dù có thể chưa hề đọc truyện về nhà thám tử này nhưng chỉ cần nghe tên cũng biết anh ta là ai. Sherlock Holmes đã trở thành một biểu tượng của văn hóa đại chúng toàn cầu. Khác với những nhân vật thần tượng chỉ vang bóng một thời, Sherlock Holmes kể từ khi xuất hiện lần đầu tiên năm 1887 qua sáng tạo của Sir Arthur Conan Doyle vẫn sống mãi qua ba thế kỉ.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/b/o/bo-mem_3-tap_hop.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/b/o/bo-mem_3-tap_hop.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/b/o/bo-mem_3-tap_hop.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/b/o/bo-mem_3-tap_hop.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/b/o/bo-mem_3-tap_hop.jpg"
+        }
+      ],
+      "list_price": 495000,
+      "name": "Sherlock Holmes Toàn Tập (Bộ Hộp 3 Tập - Bìa Mềm)",
+      "original_price": 495000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 9630
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Cái tên Sherlock Holmes đã quen thuộc khắp thế giới tới mức một người dù có thể chưa hề đọc truyện về nhà thám tử này nhưng chỉ cần nghe tên cũng biết anh ta là ai. Sherlock Holmes đã trở thành một biểu tượng của văn hóa đại chúng toàn cầu.",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Đông A"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "16 x 24 cm"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "Đăng Thư, Lê Quang Toản, Thiên Nga"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "1816"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "NXB Văn Học"
+            }
+          ]
+        }
+      ],
+      "id": 10
+    },
+    {
+      "authors": [
+        {
+          "id": 638625,
+          "name": "Uketsu",
+          "slug": "uketsu"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 92460,
+      "description": "<p style='text-align: justify;'>Thoạt nhìn, có lẽ trông nó cũng như bao ngôi nhà bình thường khác. Tuy nhiên, nếu để ý và săm soi tới từng ngóc ngách, bạn sẽ nhận thấy cảm giác khó chịu kỳ quái hiện diện ở khắp nơi trong nhà. Những sự kỳ quái đó cứ chồng chéo lên nhau để rồi cuối cùng dẫn đến một “sự thật”...</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg"
+        },
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935095632763.jpg"
+        }
+      ],
+      "list_price": 138000,
+      "name": "Ngôi Nhà Kỳ Quái",
+      "original_price": 138000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 2105
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Sự thật đằng sau thiết kế bí ẩn này là gì? Người chủ cũ của ngôi nhà này là ai? Có chuyện gì đã xảy ra trong ngôi nhà đó?",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Huy Hoang Bookstore"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2022"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "28.5 x 13 cm"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "284"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Phụ Nữ Việt Nam"
+            }
+          ]
+        }
+      ],
+      "id": 12
+    },
+    {
+      "authors": [
+        {
+          "id": 4213891,
+          "name": "Bảo Ninh",
+          "slug": "bao-ninh"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 110500,
+      "description": "<p>Tác phẩm là dòng hồi ức của người lính về chiến tranh và thời tuổi trẻ đã trải qua trong bom đạn. Đólàlòng tiếc thương vô hạn đối với những người cùng thế hệ với mình đã nằm xuống, là ám ảnh về thân phận con người trong thời buổi loạn ly, và thông qua thân phận là sự tái hiện đầy xót xavề quá khứ, những suy tư nghiền ngẫm về con đường dấn thân của cả một thế hệ sinh ra trong chiến tranh. Bao trùm lên tất cả, là nỗi buồn sâu xa gắn với từng mảnh đời riêng. Tác phẩm đã bước ra khỏi lối mòn về lòng tự hào dân tộc cùng những chiến công và vinh quang tập thể để nêu lên thông điệp về sự ghê tởm, về tính chất hủy diệt của chiến tranh đối với con người.</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974180098_1.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974180098_1.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974180098_1.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974180098_1.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8934974180098_1.jpg"
+        }
+      ],
+      "list_price": 130000,
+      "name": "Nỗi Buồn Chiến Tranh (Tái Bản 2022)",
+      "original_price": 130000,
+      "quantity_sold": {
+        "text": "Đã bán 567",
+        "value": 567
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Tác phẩm là dòng hồi ức của người lính về chiến tranh và thời tuổi trẻ đã trải qua trong bom đạn.",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "NXB Trẻ"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2022"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "20 x 13 x 1.6 cm"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "352"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Trẻ"
+            }
+          ]
+        }
+      ],
+      "id": 13
+    },
+    {
+      "book_cover": null,
+      "authors": [
+        {
+          "id": 17000,
+          "name": "Stephen King",
+          "slug": "stephen-king"
+        }
+      ],
+      "categories": {
+        "id": 845,
+        "name": "Huyền bí - Giả tưởng - Kinh dị",
+        "is_leaf": true
+      },
+      "sale_price": 305100,
+      "description": "Xác chết của một cậu bé mười một tuổi bị xâm hại được phát hiện trong một công viên của thị trấn. Các nhân chứng và dấu vân tay đều nhắm thẳng vào nghi phạm duy nhất, một trong những công dân nổi tiếng nhất của thành phố Flint – Terry Maitland, huấn luyện viên giải bóng chày Little League, giáo viên tiếng Anh, chồng của Marcy Maitland và cha của hai cô con gái. Thám tử Ralph Anderson, người có con trai từng được Maitland huấn luyện, đã ra lệnh bắt giữ công khai anh ta ngay lập tức. Maitland có bằng chứng ngoại phạm, nhưng Anderson và ủy viên công tố quận cũng có trong tay bằng chứng DNA trùng khớp. Vụ án rơi vào bế tắc.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066694742.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066694742.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066694742.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066694742.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066694742.jpg"
+        }
+      ],
+      "list_price": 339000,
+      "name": "The Outsider - Kẻ Song Trùng",
+      "original_price": 339000,
+      "quantity_sold": {
+        "text": "Đã bán 8",
+        "value": 8
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Xác chết của một cậu bé mười một tuổi bị xâm hại được phát hiện trong một công viên của thị trấn. Các nhân ch...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "1980 Books"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Thanh Niên"
+            }
+          ]
+        }
+      ],
+      "id": 14
+    },
+    {
+      "authors": [
+        {
+          "id": 572221,
+          "name": "Sou Inaida",
+          "slug": "sou-inaida"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 842,
+        "name": "Light Novel",
+        "is_leaf": true
+      },
+      "sale_price": 107100,
+      "description": "Moeka lớn lên cùng những trải nghiệm không mấy tốt đẹp xuất phát từ việc cô bị mắc chứng nói lắp từ nhỏ, tính cách nhút nhát và luôn lo sợ. Cậu học sinh chuyển trường mới đến là Terumichi lại vô cùng vui vẻ, hòa đồng, đối lập hẳn với Moeka, cũng chính là người đã khiến cuộc sống của cô thay đổi từng chút mỗi ngày. Câu chuyện tình yêu nhẹ nhàng, trong sáng của hai người cũng đã bắt đầu từ khoảnh khắc đó.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/t/_/t_i-mu_n-b_o-v_-c_u.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/t/_/t_i-mu_n-b_o-v_-c_u.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/t/_/t_i-mu_n-b_o-v_-c_u.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/t/_/t_i-mu_n-b_o-v_-c_u.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/t/_/t_i-mu_n-b_o-v_-c_u.jpg"
+        }
+      ],
+      "list_price": 126000,
+      "name": "Tôi Muốn Bảo Vệ Cậu Dù Phải Mất Đi... Tình Yêu Này",
+      "quantity_sold": {
+        "text": "Đã bán 384",
+        "value": 384
+      },
+      "original_price": 126000,
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Moeka lớn lên cùng những trải nghiệm không mấy tốt đẹp xuất phát từ việc cô bị mắc chứng nói lắp từ nhỏ, tính cách nhút nhát và luôn lo sợ.",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "AZ Việt Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2023"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "satoukibi"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "344"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Thế Giới"
+            }
+          ]
+        }
+      ],
+      "id": 15
+    },
+    {
+      "book_cover": null,
+      "authors": [
+        {
+          "id": 17001,
+          "name": "Kagami Yagami, Roha",
+          "slug": "kagami-yagami-roha"
+        }
+      ],
+      "categories": {
+        "id": 842,
+        "name": "Light Novel",
+        "is_leaf": true
+      },
+      "sale_price": 92000,
+      "description": "<p>Sau giờ học, khi Nakayama Koutarou quay lại trường để lấy một thứ mà cậu để quên, cậu tình cờ nhìn thấy Shimotsuki Shiho đang ngủ trong lớp học trống. Mọi người đồn rằng cô ấy là mối quan tâm lớn nhất của Ryuuzaki Ryouma, chàng trai nổi tiếng nhất lớp, nhưng cô ấy luôn trưng ra vẻ mặt vô cảm và chẳng bao giờ cười.</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/c/o/co-nang-shimotsuki-trot-phai-long-nhan-vat-nen_tap-1_ban-pho-thong.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/c/o/co-nang-shimotsuki-trot-phai-long-nhan-vat-nen_tap-1_ban-pho-thong.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/c/o/co-nang-shimotsuki-trot-phai-long-nhan-vat-nen_tap-1_ban-pho-thong.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/c/o/co-nang-shimotsuki-trot-phai-long-nhan-vat-nen_tap-1_ban-pho-thong.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/c/o/co-nang-shimotsuki-trot-phai-long-nhan-vat-nen_tap-1_ban-pho-thong.jpg"
+        }
+      ],
+      "list_price": 115000,
+      "name": "Cô Nàng Shimotsuki Trót Phải Lòng Nhân Vật Nền - Tập 1 - Tặng Kèm Bookmark",
+      "original_price": 115000,
+      "quantity_sold": {
+        "text": "Đã bán 18",
+        "value": 18
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Tại sao cô bạn Shimotsuki không bao giờ cười ấy lại để ý đến tôi!?",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Nhà Xuất Bản Kim Đồng"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Kim Đồng"
+            }
+          ]
+        }
+      ],
+      "id": 16
+    },
+    {
+      "authors": [
+        {
+          "id": 12018,
+          "name": "Abone, kanda done",
+          "slug": "abone-kanda-done"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 842,
+        "name": "Light Novel",
+        "is_leaf": true
+      },
+      "sale_price": 100800,
+      "description": "Tôi là Ayanokouji Kazuto, một nam sinh cấp ba vô cùng bình thường đã có vợ, nhưng là vợ trong game thôi. Hôm nay, khi đang chơi game với “vợ”, tôi tình cờ biết được cô ấy chính là Mizuki Rinka, idol mà tôi hâm mộ, cũng là bạn cùng lớp của tôi.\nTuy nhiên, trước giờ cô bạn này luôn bị đồn là “ghét con trai”, thế mà…\n“Từ giờ bọn mình có thể ở bên nhau cả ngoài đời thực rồi.”\n“Chúng ta là bạn trong game và đã kết hôn ở đó rồi, vậy nên hiện tại chúng ta là vợ chồng.”",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-xu_t-b_n-v_-trong-game_b_a1-600.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-xu_t-b_n-v_-trong-game_b_a1-600.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-xu_t-b_n-v_-trong-game_b_a1-600.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-xu_t-b_n-v_-trong-game_b_a1-600.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/t/h/th_ng-tin-xu_t-b_n-v_-trong-game_b_a1-600.jpg"
+        }
+      ],
+      "list_price": 126000,
+      "name": "Vợ Trong Game Của Tôi Là Idol Nổi Tiếng Ngoài Đời - Tập 1 - Tặng Kèm Bookmark Bế In 1 Mặt",
+      "original_price": 126000,
+      "quantity_sold": {
+        "text": "Đã bán 384",
+        "value": 384
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "“Chúng ta không phải người yêu, chúng ta là vợ chồng mà.”\n“Hả?”",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "AZ Việt Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2022"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "18 x 13 cm x 1.6"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "Ngân Nhi"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa Mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "324"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Dân Trí"
+            }
+          ]
+        }
+      ],
+      "id": 17
+    },
+    {
+      "authors": [
+        {
+          "id": 10480,
+          "name": "Abone, kanda done",
+          "slug": "abone-kanda-done"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 842,
+        "name": "Light Novel",
+        "is_leaf": true
+      },
+      "sale_price": 100800,
+      "description": "Tôi là Ayanokouji Kazuto, một nam sinh cấp ba vô cùng bình thường đã có vợ, nhưng là vợ trong game thôi. Hôm nay, khi đang chơi game với “vợ”, tôi tình cờ biết được cô ấy chính là Mizuki Rinka, idol mà tôi hâm mộ, cũng là bạn cùng lớp của tôi.\nTuy nhiên, trước giờ cô bạn này luôn bị đồn là “ghét con trai”, thế mà…\n“Từ giờ bọn mình có thể ở bên nhau cả ngoài đời thực rồi.”\n“Chúng ta là bạn trong game và đã kết hôn ở đó rồi, vậy nên hiện tại chúng ta là vợ chồng.”",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935325011344.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935325011344.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935325011344.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935325011344.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935325011344.jpg"
+        }
+      ],
+      "list_price": 126000,
+      "name": "Vợ Trong Game Của Tôi Là Idol Nổi Tiếng Ngoài Đời - Tập 2 - Tặng Kèm Bookmark Bế In 1 Mặt",
+      "original_price": 126000,
+      "quantity_sold": {
+        "text": "Đã bán 384",
+        "value": 384
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "“Chúng ta không phải người yêu, chúng ta là vợ chồng mà.”\n“Hả?”",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "AZ Việt Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2022"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "18 x 13 cm x 1.6"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "Ngân Nhi"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa Mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "324"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Dân Trí"
+            }
+          ]
+        }
+      ],
+      "id": 18
+    },
+    {
+      "authors": [
+        {
+          "id": 4415443,
+          "name": "Trúc Dĩ",
+          "slug": "truc-di"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 871,
+        "name": "Ngôn tình",
+        "is_leaf": true
+      },
+      "sale_price": 350550,
+      "description": "Ôn Dĩ Phàm và Tang Diên từng là bạn học, hai người tình cờ gặp lại nhau trong một quán bar, sau đó lại tình cờ trở thành bạn thuê trọ chung.\nChuyện cũng chẳng có gì nếu như hồi còn đi học Ôn Dĩ Phàm chưa từng... từ chối tình cảm của Tang Diên.\nThật ra Tang Diên là một người rất cộc cằn, anh có thể gây sát thương bằng lời nói với bất kỳ ai, nhưng anh lại vô cùng dịu dàng với Ôn Dĩ Phàm. Yêu thầm cô suốt sáu năm, tìm đủ mọi cách để lưu giữ hình ảnh của cô trong những năm tháng xa cách... Kể cả khi bị cô từ chối, anh vẫn âm thầm dõi theo cô từ xa.",
+      "images": [
+        {
+          "base_url": "https://salt.tikicdn.com/ts/product/a9/d4/f0/c6cddbe8bc813582cd925251e440d3e8.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://salt.tikicdn.com/cache/w1200/ts/product/a9/d4/f0/c6cddbe8bc813582cd925251e440d3e8.jpg",
+          "medium_url": "https://salt.tikicdn.com/cache/w300/ts/product/a9/d4/f0/c6cddbe8bc813582cd925251e440d3e8.jpg",
+          "position": null,
+          "small_url": "https://salt.tikicdn.com/cache/200x280/ts/product/a9/d4/f0/c6cddbe8bc813582cd925251e440d3e8.jpg",
+          "thumbnail_url": "https://salt.tikicdn.com/cache/200x280/ts/product/a9/d4/f0/c6cddbe8bc813582cd925251e440d3e8.jpg"
+        }
+      ],
+      "list_price": 410000,
+      "name": "Combo Sách Khó Dỗ Dành - Tập 1 + Tập 2 (Bộ 2 Tập)",
+      "original_price": 410000,
+      "quantity_sold": {
+        "text": "Đã bán 11",
+        "value": 11
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Ôn Dĩ Phàm và Tang Diên từng là bạn học, hai người tình cờ gặp lại nhau trong một quán bar, sau đó lại tình cờ trở thành bạn thuê ...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "AZ Việt Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2023"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Văn Học"
+            }
+          ]
+        }
+      ],
+      "id": 19
+    },
+    {
+      "authors": [
+        {
+          "id": 163121,
+          "name": "Mặc Hương Đồng Khứu",
+          "slug": "mac-huong-dong-khuu"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 316,
+        "name": "Tiểu thuyết",
+        "is_leaf": false
+      },
+      "sale_price": 254400,
+      "description": "<p>Kiếp trước Ngụy Vô Tiện bị vạn người thóa mạ, danh tiếng xấu xa đến cùng cực, sư đệ hắn thề cả đời bảo vệ lại dẫn người đến tiêu diệt hắn, dọc ngang tung hoành một đời, cuối cùng chết lại chẳng toàn thây. Bao năm sóng yên bể lặng, ngờ đâu Ngụy Vô Tiện, ma đạo tổ sư dấy lên gió huyết mưa tanh một thời lại sống lại. Vẫn con người đó, vẫn tính cách tưng tửng dở hơi, nhưng tâm thế nay đã khác, hắn bỗng phát hiện thì ra chuyện đời trước là một trường âm mưu.<br>Kẻ đứng sau mọi chuyện ngày đó là ai?</p>",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg"
+        },
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936117743498.jpg"
+        }
+      ],
+      "list_price": 318000,
+      "name": "Bộ Sách Ma Đạo Tổ Sư - Tập 3&4 (Tái Bản 2021)",
+      "original_price": 318000,
+      "quantity_sold": {
+        "text": "Đã bán 182",
+        "value": 182
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Kiếp trước Ngụy Vô Tiện bị vạn người thóa mạ, danh tiếng xấu xa đến cùng cực, sư đệ hắn thề cả đời bảo vệ lại dẫn người đến tiêu diệt hắn, dọc ngang tung hoành một đời, cuối cùng chết lại chẳng toàn thây.",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "ZGROUP"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2021"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "20.5 x 14.5 cm"
+            },
+            {
+              "code": "dich_gia",
+              "name": "Dịch Giả",
+              "value": "Diệp Ngô"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "880"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "NXB Hà Nội"
+            }
+          ]
+        }
+      ],
+      "id": 20
+    },
+    {
+      "authors": [
+        {
+          "id": 114261,
+          "name": "Trần Ẩn",
+          "slug": "tran-an"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 871,
+        "name": "Ngôn tình",
+        "is_leaf": true
+      },
+      "sale_price": 169150,
+      "description": "Cố Lễ Châu là một nhà văn thành danh từ khi còn học đại học, nhưng do một lần bị hãm hại nên đã rửa tay gác bút nhiều năm.\nỞ cái tuổi mà ai cũng nghĩ anh ta sẽ là một người trầm tĩnh ấm áp, luôn mang đến những điều hay lẽ phải cho cuộc đời... thì thật ra anh ta mới là người cần cuộc đời này dạy điều hay lẽ phải.\nChung Vị Thời là một diễn viên đóng thế nhỏ bé. Đã từng diễn qua đủ loại vai diễn từ thái giám đến tử thi... Và dĩ nhiên là độ nổi tiếng vẫn ở mức âm.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/h/t/htcdpkol1_2.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/h/t/htcdpkol1_2.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/h/t/htcdpkol1_2.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/h/t/htcdpkol1_2.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/h/t/htcdpkol1_2.jpg"
+        }
+      ],
+      "list_price": 199000,
+      "name": "Hình Tượng Của Đối Phương Không Ổn Lắm - Wrong Impression - Tập 1 - Bản Đặc Biệt - Tặng Kèm Bookmark + Poster A4 + Móc Khóa Dẻo",
+      "original_price": 199000,
+      "quantity_sold": {
+        "text": "Đã bán 54",
+        "value": 54
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Cố Lễ Châu là một nhà văn thành danh từ khi còn học đại học, nhưng do một lần bị hãm hại nên đã rửa tay gác bút nhiều năm....",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "AZ Việt Nam"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2023"
+            },
+            {
+              "code": "edition",
+              "name": "Phiên bản",
+              "value": "Tiếng việt"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "448"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Hà Nội"
+            }
+          ]
+        }
+      ],
+      "id": 21
+    },
+    {
+      "authors": [
+        {
+          "id": 8318,
+          "name": "Cao Bảo Vy",
+          "slug": "cao-bao-vy"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 320,
+        "name": "Du ký",
+        "is_leaf": false
+      },
+      "sale_price": 55250,
+      "description": "“Chân nhỏ dũng cảm” là nhật ký hành trình xê dịch tại Việt Nam và sáu quốc gia khác của hai mẹ con tác giả Cao Bảo Vy, trong khoảng thời gian từ khi cô bé con được 18 tháng tuổi đến năm 11 tuổi (2020). Có những chuyến họ đi cùng gia đình hoặc công ty du lịch nhưng phần lớn hành trình đều do hai mẹ con tự lên kế hoạch, tự sắp xếp và “tha” nhau đi.\nQuyển sách không chỉ kể về những chuyến đi, những điều thú vị trên đường mà cả những bài học nhỏ, những tâm tình mẹ con, những chi tiết và ký ức góp nhặt được, cũng như những con người ở những vùng đất họ đi qua.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786043776522.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786043776522.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786043776522.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786043776522.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/9/7/9786043776522.jpg"
+        }
+      ],
+      "list_price": 65000,
+      "name": "Chân Nhỏ Dũng Cảm - Cùng Con Đi Khắp Thế Gian",
+      "original_price": 65000,
+      "quantity_sold": {
+        "text": "Đã bán 1000+",
+        "value": 9476
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "“Chân nhỏ dũng cảm” là nhật ký hành trình xê dịch tại Việt Nam và sáu quốc gia khác của hai mẹ con tác giả Cao Bảo Vy",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "NXB Tổng Hợp TPHCM"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Tổng Hợp TPHCM"
+            }
+          ]
+        }
+      ],
+      "id": 22
+    },
+    {
+      "authors": [
+        {
+          "id": 7807,
+          "name": "Trương Anh Ngọc",
+          "slug": "truong-anh-ngoc"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 320,
+        "name": "Du ký",
+        "is_leaf": false
+      },
+      "sale_price": 102000,
+      "description": "Đi khi ta còn trẻ, cũng như những cuốn sách khác của Trương Anh Ngọc về niềm đam mê khám phá thế giới, đều là những cuốn sách đầy cảm xúc, giàu triết lý và tràn trề sức sống. Nỗi khát khao xê dịch – một thử 'nghiện' sang trọng, niềm hạnh phúc khi 'mỗi ban mai thấy một khung trời lạ' được mô tả hào hứng say mê, truyền tải mạnh mẽ thông điệp rằng những trải nghiệm với thế giới chính là tài sản lớn nhất của mỗi đời người, và ta có thể để tuổi xuân trôi đi một cách đáng tự hào theo cách ấy.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935235235380.jpg"
+        }
+      ],
+      "list_price": 120000,
+      "name": "Đi Khi Ta Còn Trẻ",
+      "original_price": 120000,
+      "quantity_sold": {
+        "text": "Đã bán 622",
+        "value": 622
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "The perfect choice for advanced-level students wanting to build their vocabulary skills. English Vocabulary in Use: Advanced includes over 2,000 new words and expressions which are presented and pract...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Nhã Nam"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "Thế Giới"
+            }
+          ]
+        }
+      ],
+      "id": 23
+    },
+    {
+      "authors": [
+        {
+          "id": 112340,
+          "name": "Lê Văn Nghĩa",
+          "slug": "le-van-nghia"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 14896,
+        "name": "Hài hước - Truyện cười",
+        "is_leaf": true
+      },
+      "sale_price": 72250,
+      "description": "Tác giả Lê Văn Nghĩa sinh ngày 20/05/1953 tại tỉnh Chợ Lớn. Ông “thuộc thế hệ thanh niên học sinh Sài Gòn trưởng thành trong phong trào đấu tranh đô thị trước 1975. Ông từng xuống đường lãnh đạo thanh niên học sinh đấu tranh trực diện với cảnh sát, từng bị bắt, trải qua một số nhà tù giam của chế độ Việt Nam Cộng hòa, kể cả ở Côn Đảo. Sau ngày thống nhất đất nước, Lê Văn Nghĩa thuộc thế hệ làm báo đầu tiên của báo Tuổi Trẻ, cùng với làng báo TP.HCM lúc bấy giờ góp phần xây dựng đời sống mới. Ông làm việc tại báo Tuổi Trẻ từ năm 1975 đến năm 2015”.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4456.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4456.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4456.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4456.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4456.jpg"
+        }
+      ],
+      "list_price": 85000,
+      "name": "Điệp Viên Không Không Thấy Và Đại Văn Mỗ",
+      "original_price": 85000,
+      "quantity_sold": {
+        "text": "Đã bán 23",
+        "value": 23
+      },
+      "rating_average": {
+        "value": 2.5,
+        "totalRating": 2.5,
+        "quantityVote": 1
+      },
+      "short_description": "Tác giả Lê Văn Nghĩa sinh ngày 20/05/1953 tại tỉnh Chợ Lớn. Ông “thuộc thế hệ thanh niên...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "NXB Tổng Hợp TPHCM"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "NXB Tổng Hợp TPHCM"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2021"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "223"
+            }
+          ]
+        }
+      ],
+      "id": 24
+    },
+    {
+      "authors": [
+        {
+          "id": 843855,
+          "name": "Lê Văn Nghĩa",
+          "slug": "le-van-nghia"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 14896,
+        "name": "Hài hước - Truyện cười",
+        "is_leaf": true
+      },
+      "sale_price": 72250,
+      "description": "Tác giả Lê Văn Nghĩa sinh ngày 20/05/1953 tại tỉnh Chợ Lớn. Ông “thuộc thế hệ thanh niên học sinh Sài Gòn trưởng thành trong phong trào đấu tranh đô thị trước 1975. Ông từng xuống đường lãnh đạo thanh niên học sinh đấu tranh trực diện với cảnh sát, từng bị bắt, trải qua một số nhà tù giam của chế độ Việt Nam Cộng hòa, kể cả ở Côn Đảo. Sau ngày thống nhất đất nước, Lê Văn Nghĩa thuộc thế hệ làm báo đầu tiên của báo Tuổi Trẻ, cùng với làng báo TP.HCM lúc bấy giờ góp phần xây dựng đời sống mới. Ông làm việc tại báo Tuổi Trẻ từ năm 1975 đến năm 2015”.",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/i/m/image_244718_1_4457.jpg"
+        }
+      ],
+      "list_price": 85000,
+      "name": "Điệp Viên Không Không Thấy Và Nhà Thơ Thần Giáng",
+      "original_price": 85000,
+      "quantity_sold": {
+        "text": "Đã bán 23",
+        "value": 23
+      },
+      "rating_average": {
+        "value": 0,
+        "totalRating": 0,
+        "quantityVote": 0
+      },
+      "short_description": "Tác giả Lê Văn Nghĩa sinh ngày 20/05/1953 tại tỉnh Chợ Lớn. Ông “thuộc thế hệ thanh niên...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "NXB Tổng Hợp TPHCM"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "NXB Tổng Hợp TPHCM"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2021"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa mềm"
+            },
+            {
+              "code": "number_of_page",
+              "name": "Số trang",
+              "value": "223"
+            }
+          ]
+        }
+      ],
+      "id": 25
+    },
+    {
+      "authors": [
+        {
+          "id": 843855,
+          "name": "Song Hà",
+          "slug": "song-ha"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 14896,
+        "name": "Hài hước - Truyện cười",
+        "is_leaf": true
+      },
+      "sale_price": 127500,
+      "description": "Tác phẩm này được viết lại từ chuyện đời của tôi, hay nói một cách hình ảnh, nó là vô vàn những lát cắt cuộc sống của một kẻ vẫn hay bị coi là lập dị và đầy mâu thuẫn. Những con người đã gặp, đã từng yêu, những ân oán quá khứ... tưởng đã khép lại trong lòng, nhưng một mai thức dậy, tất cả chợt ùa về như những món nợ để đời...",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066685108.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066685108.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066685108.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066685108.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8936066685108.jpg"
+        }
+      ],
+      "list_price": 150000,
+      "name": "Những Chuyện Bựa Thời Sinh Viên",
+      "original_price": 150000,
+      "quantity_sold": {
+        "text": "Đã bán 50",
+        "value": 50
+      },
+      "rating_average": {
+        "value": 3,
+        "totalRating": 3,
+        "quantityVote": 1
+      },
+      "short_description": "Tác phẩm này được viết lại từ chuyện đời của tôi, hay nói một cách hình ảnh, nó là vô vàn những lát cắt cuộc sống...",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "1980 Books"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "NXB Lao Động"
+            }
+          ]
+        }
+      ],
+      "id": 26
+    },
+    {
+      "authors": [
+        {
+          "id": 46343,
+          "name": "Kang Ah",
+          "slug": "kang-ah"
+        }
+      ],
+      "book_cover": null,
+      "categories": {
+        "id": 9,
+        "name": "Truyện tranh",
+        "is_leaf": false
+      },
+      "sale_price": 185300,
+      "description": "Đây không phải là truyện bêu xấu mèo. Nếu đọc xong truyện này rồi mà bạn vẫn chịu được thì hãy nuôi mèo đi! Đây là lời cảnh cáo cuối cùng mà quản gia của mèo nói với thế gian!",
+      "images": [
+        {
+          "base_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935074127716.jpg",
+          "is_gallery": true,
+          "label": null,
+          "large_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935074127716.jpg",
+          "medium_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935074127716.jpg",
+          "position": null,
+          "small_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935074127716.jpg",
+          "thumbnail_url": "https://cdn0.fahasa.com/media/catalog/product/8/9/8935074127716.jpg"
+        }
+      ],
+      "list_price": 218000,
+      "name": "Chú Mèo Rụng Lông Không Có Điểm Dừng",
+      "original_price": 218000,
+      "quantity_sold": {
+        "text": "Đã bán 469",
+        "value": 469
+      },
+      "rating_average": {
+        "value": 2.75,
+        "totalRating": 5.5,
+        "quantityVote": 2
+      },
+      "short_description": "Đây không phải là truyện bêu xấu mèo....",
+      "specifications": [
+        {
+          "name": "Thông tin chung",
+          "attributes": [
+            {
+              "code": "publisher_vn",
+              "name": "Nhà Cung Cấp",
+              "value": "Cty Văn Hóa Văn Lang"
+            },
+            {
+              "code": "manufacturer",
+              "name": "Nhà xuất bản",
+              "value": "NXB Thanh Hóa"
+            },
+            {
+              "code": "publication_date",
+              "name": "Ngày xuất bản",
+              "value": "2022"
+            },
+            {
+              "code": "dimensions",
+              "name": "Kích thước",
+              "value": "24 x 16 x 1 cm"
+            },
+            {
+              "code": "book_cover",
+              "name": "Loại bìa",
+              "value": "Bìa Mềm"
+            }
+          ]
+        }
+      ],
+      "id": 27
+    }
+  ]
+}
