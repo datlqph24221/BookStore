@@ -46,7 +46,6 @@ export class RegisterComponent {
   }
 
   onSubmit() {
-    // console.log(this.signupform.valid, this.signupform.value);
 
     if (this.signupform.valid) {
       const userformsignup: IUsersignup = {
@@ -62,7 +61,6 @@ export class RegisterComponent {
         address: "",
         role: "user"
       }
-      console.log('signup submitted:', this.signupform.value);
       // Goi API
       this.UserService.signup(userformsignup).subscribe(data => {
         alert("Đăng Ký Thành Công Tài Khoản")
@@ -70,7 +68,6 @@ export class RegisterComponent {
           email: data.user.email,
           password: data.user.password
         }
-        console.log("data dang ky", user);
         // Dang ky song thi dang nhap luon
         if (user) {
           this.UserService.signin(user)
